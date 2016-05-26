@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+
+	<input tree="PicoDst" url="/Users/danielbrandenburg/bnl/local/data/muonPico/" maxFiles="1" />
+
+	<KeepBranches>
+		Event*,
+		EventPlane*
+	</KeepBranches>
+
+	<output split="100" prefix="pDst_" suffix=".root" />
+
+
+</config>
